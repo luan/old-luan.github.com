@@ -1,0 +1,98 @@
+body {
+  background: url(/images/bg.jpg) #0F4455;
+  color: #FCFCFC;
+  font-family: 'ComfortaaBold', Tahoma, sans-serif;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  text-shadow: 2px 2px 3px #000;
+}
+
+span.highlight {
+  color: #33FF99;
+}
+
+a {
+  color: #AAAAFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6666FF;
+}
+
+div#wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 720px;
+  height: 400px;
+  margin: -250px 0 0 -400px;
+  text-align: left;
+}
+
+div#image {
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #000;
+  float: left;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+div#image img {
+  margin-top: -30px;
+  clear: both;
+  float: left;
+  z-index: -1;
+}
+
+header > h1 {
+  font-size: 46px;
+  font-family: 'FFFTusjBold', Tahoma, sans-serif;
+}
+
+section > article > p {
+  font-size: 26px;
+}
+
+footer {
+  margin: 0;
+  margin-top: -20px;
+  clear: both;
+  float: left;
+  font-family: 'ComfortaaRegular', Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  float: left;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+footer ul li a {
+  background: transparent no-repeat;
+  display: block;
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+footer ul li.email a     { background: url(/images/email.png); }
+footer ul li.twitter a   { background: url(/images/twitter.png); }
+footer ul li.google a    { background: url(/images/google.png); }
+footer ul li.linkedin a  { background: url(/images/linkedin.png); }
+footer ul li.github a    { background: url(/images/github.png); }
+footer ul li.ruby a      { background: url(/images/ruby.png); }
+footer ul li.facebook a  { background: url(/images/facebook.png); }
+footer ul li.skype a     { background: url(/images/skype.png); }
+footer ul li.gtalk a     { background: url(/images/gtalk.png); }
+footer ul li.youtube a   { background: url(/images/youtube.png); }
