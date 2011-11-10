@@ -15,15 +15,21 @@ span.highlight {
 a {
   color: #AAAAFF;
   text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 a:hover {
   color: #6666FF;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 div#wrap {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   width: 720px;
   height: 400px;
@@ -31,7 +37,28 @@ div#wrap {
   text-align: left;
 }
 
-section > aside > a {
+header aside a {
+  background: url(/images/ruby-big.png) no-repeat;
+  display: block;
+  float: right;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  text-indent: -9999px;
+  opacity: 0.8;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+header aside a:hover {
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -moz-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
+  opacity: 1;
+}
+
+section aside a {
   background: url(/images/foto.jpg) no-repeat 0 -10px;
   border-radius: 50%;
   border: 5px solid #FCFCFC;
@@ -42,23 +69,30 @@ section > aside > a {
   width: 180px;
   overflow: hidden;
   margin-right: 20px;
-  margin-top: -30px;
   text-indent: -9999px;
   opacity: 0.6;
   -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-section > aside > a:hover {
+section aside a:hover {
   opacity: 1;
 }
 
-header > h1 {
+header h1 {
   font-size: 46px;
   font-family: 'ComfortaaBold', Tahoma, sans-serif;
 }
 
-section > article > p {
+section article p {
   font-size: 26px;
+  text-align: justify;
+}
+
+section article p img {
+  border: 0;
+  vertical-align: middle;
 }
 
 footer {
