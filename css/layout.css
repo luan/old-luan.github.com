@@ -28,12 +28,10 @@ a:hover {
 }
 
 div#wrap {
-  position: absolute;
-  top: 30%;
-  left: 50%;
+  margin: auto;
+  margin-top: 130px;
   width: 720px;
   height: 400px;
-  margin: -250px 0 0 -400px;
   text-align: left;
 }
 
